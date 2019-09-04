@@ -20,6 +20,26 @@ PRODUCT_PACKAGES += \
     Turbo \
     WeatherProvider
 
+#Lawnchair
+PRODUCT_PACKAGES += \
+    Lawnchair 
+
+# Long screenshot
+PRODUCT_PACKAGES += \
+    Longshot
+
+#Gallery2
+PRODUCT_PACKAGES += \
+    Gallery2
+
+#Phonograph
+PRODUCT_PACKAGES += \
+    Music
+    
+#Via
+PRODUCT_PACKAGES += \
+    Via  
+
 # AmbientSense
 PRODUCT_COPY_FILES +=  \
     vendor/liquid/prebuilt/common/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb
