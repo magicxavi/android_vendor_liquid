@@ -18,7 +18,8 @@ PRODUCT_PACKAGES += \
     SubstratumSignature \
     SubstratumKey \
     Turbo \
-    WeatherProvider
+    WeatherProvider \
+    SnapdragonCamera2
 
 #Lawnchair
 PRODUCT_PACKAGES += \
