@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     SubstratumKey \
     Turbo \
     WeatherProvider \
-    SnapdragonCamera2
+    SnapdragonCamera2 \
+	AudioFX
 
 #Lawnchair
 PRODUCT_PACKAGES += \
@@ -32,10 +33,6 @@ PRODUCT_PACKAGES += \
 #Gallery2
 PRODUCT_PACKAGES += \
     Gallery2
-
-#Phonograph
-PRODUCT_PACKAGES += \
-    Music
     
 #Via
 PRODUCT_PACKAGES += \
