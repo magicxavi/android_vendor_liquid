@@ -241,6 +241,10 @@ PRODUCT_COPY_FILES += \
 # Google Dialer
 PRODUCT_COPY_FILES +=  \
     vendor/liquid/prebuilt/common/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml 
+    
+# Substratum Key
+PRODUCT_COPY_FILES += \
+    vendor/liquid/prebuilt/common/priv-app/SubstratumKey.apk:system/priv-app/SubstratumKey/SubstratumKey.apk
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
