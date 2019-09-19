@@ -30,9 +30,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Longshot
 
-#Gallery2
+#Gallery Memoria
 PRODUCT_PACKAGES += \
-    Gallery2
+    Memoria
     
 #Via
 PRODUCT_PACKAGES += \

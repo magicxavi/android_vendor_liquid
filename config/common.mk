@@ -104,7 +104,8 @@ PRODUCT_PACKAGES += \
     QStileSquircle \
     QStileSquircleTrim \
     QStileTeardrop \
-    QStileWavey
+    QStileWavey \
+	QSTileOxygen
 
 # QS header styles
 PRODUCT_PACKAGES += \
