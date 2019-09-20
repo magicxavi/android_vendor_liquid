@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     Turbo \
     WeatherProvider \
     SnapdragonCamera2 \
-	AudioFX
+	AudioFX \
+	RetroMusicPlayer
 
 #Lawnchair
 PRODUCT_PACKAGES += \
