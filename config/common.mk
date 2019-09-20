@@ -85,27 +85,31 @@ PRODUCT_PACKAGES += \
 
 # QS tile styles
 PRODUCT_PACKAGES += \
-    QStileDefault \
-    QStileCircleTrim \
-    QStileCircleDualTone \
-    QStileCircleGradient \
-    QStileCookie \
-    QStileDottedCircle \
-    QStileDualToneCircle \
-    QStileInk \
-    QStileInkdrop \
-    QStileMountain \
-    QStileNinja \
-    QStileOreo \
-    QStileOreoCircleTrim \
-    QStileOreoSquircleTrim \
-    QStilePokesign \
-    QStileSquaremedo \
-    QStileSquircle \
-    QStileSquircleTrim \
-    QStileTeardrop \
-    QStileWavey \
-	QSTileOxygen
+    QSTileDefault \
+    QSTileCircleTrim \
+    QSTileCircleDualTone \
+    QSTileCircleGradient \
+    QSTileCookie \
+    QSTileCosmos \
+    QSTileDividedCircle \
+    QSTileDottedCircle \
+    QSTileDualToneCircle \
+    QSTileInk \
+    QSTileInkdrop \
+    QSTileMountain \
+    QSTileNeonLight \
+    QSTileNinja \
+    QSTileOreo \
+    QSTileOreoCircleTrim \
+    QSTileOreoSquircleTrim \
+    QSTileOxygen \
+    QSTilePokesign \
+    QSTileSquaremedo \
+    QSTileSquircle \
+    QSTileSquircleTrim \
+    QSTileTeardrop \
+    QSTileTriangles \
+    QSTileWavey
 
 # QS header styles
 PRODUCT_PACKAGES += \
