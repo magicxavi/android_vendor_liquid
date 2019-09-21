@@ -361,12 +361,12 @@ DEVICE_PACKAGE_OVERLAYS += vendor/liquid/overlay/common
 # Version System
 PRODUCT_VERSION_MAJOR = 10
 PRODUCT_VERSION_MINOR = 0
-PRODUCT_VERSION_MAINTENANCE := 11
+PRODUCT_VERSION_MAINTENANCE := 12
 
 ifeq ($(TARGET_VENDOR_SHOW_MAINTENANCE_VERSION),true)
     LIQUID_VERSION_MAINTENANCE := $(PRODUCT_VERSION_MAINTENANCE)
 else
-    LIQUID_VERSION_MAINTENANCE := 11
+    LIQUID_VERSION_MAINTENANCE := 12
 endif
 
 # Set LIQUID_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
@@ -393,6 +393,8 @@ ifdef LIQUID_BUILDTYPE
             LIQUID_BUILDTYPE := WEEKLY
             # Force build type to FINAL
             LIQUID_BUILDTYPE := FINAL
+			# Force build type to BLOODY
+			LIQUID_BUILDTYPE := BLOODY
             # Remove leading dash from LIQUID_EXTRAVERSION
             LIQUID_EXTRAVERSION := $(shell echo $(LIQUID_EXTRAVERSION) | sed 's/-//')
             # Add leading dash to LIQUID_EXTRAVERSION
@@ -406,6 +408,8 @@ ifdef LIQUID_BUILDTYPE
             LIQUID_BUILDTYPE := WEEKLY
             # Force build type to FINAL, SNAPSHOT mandates a tag
             LIQUID_BUILDTYPE := FINAL
+			# Force build type to BLOODY, SNAPSHOT mandates a tag
+			LIQUID_BUILDTYPE := BLOODY
         else
             # Remove leading dash from LIQUID_EXTRAVERSION
             LIQUID_EXTRAVERSION := $(shell echo $(LIQUID_EXTRAVERSION) | sed 's/-//')
