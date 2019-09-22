@@ -97,7 +97,7 @@ PRODUCT_PACKAGES += \
     QSTileInk \
     QSTileInkdrop \
     QSTileMountain \
-    QSTileNeonLight \
+    QSTilePie \
     QSTileNinja \
     QSTileOreo \
     QSTileOreoCircleTrim \
