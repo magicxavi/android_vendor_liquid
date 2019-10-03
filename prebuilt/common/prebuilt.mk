@@ -12,8 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/pixelstyle/Android.mk)
+
 $(call inherit-product, vendor/pixelstyle/config.mk)
+$(call inherit-product, vendor/gapps/config.mk)
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
