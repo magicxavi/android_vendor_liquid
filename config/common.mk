@@ -276,12 +276,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/liquid/themes/GBoard/MD2.zip:system/etc/gboard/MD2.zip \
     vendor/liquid/themes/GBoard/MD2Black.zip:system/etc/gboard/MD2Black.zip \
-    vendor/liquid/themes/GBoard/MD2Dark.zip:system/etc/gboard/MD2Dark.zip
+    vendor/liquid/themes/GBoard/MD2Dark.zip:system/etc/gboard/MD2Dark.zip \
+	vendor/liquid/themes/GBoard/OnePlus.zip:system/etc/gboard/OnePlus.zip
 
 # Set Pixel blue light MD2 theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.themes_dir=/system/etc/gboard \
-    ro.com.google.ime.theme_file=MD2.zip
+    ro.com.google.ime.theme_file=OnePlus.zip
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
