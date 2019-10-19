@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     Turbo \
     WeatherProvider \
     SnapdragonCamera2 \
+	Recorder \
 	AudioFX \
 	RetroMusicPlayer
 
