@@ -23,9 +23,8 @@ PRODUCT_PACKAGES += \
     SubstratumKey \
     Turbo \
     WeatherProvider \
-    SnapdragonCamera2 \
+    Snap \
 	Recorder \
-	AudioFX \
 	RetroMusicPlayer
 
 #Lawnchair
@@ -35,10 +34,6 @@ PRODUCT_PACKAGES += \
 # Long screenshot
 PRODUCT_PACKAGES += \
     Longshot
-
-#Gallery Memoria
-PRODUCT_PACKAGES += \
-    Memoria
     
 #Via
 PRODUCT_PACKAGES += \
