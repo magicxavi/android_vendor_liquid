@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     Turbo \
 	Gallery2 \
     WeatherProvider \
+	Snap2 \
     Snap \
 	SnapdragonCamera \
 	Recorder \
