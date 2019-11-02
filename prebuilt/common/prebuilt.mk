@@ -36,9 +36,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Longshot
     
-#Via
+#OperaMini
 PRODUCT_PACKAGES += \
-    Via  
+    OperaMini 
 
 # AmbientSense
 PRODUCT_COPY_FILES +=  \
