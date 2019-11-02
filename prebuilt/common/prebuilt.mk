@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     SubstratumSignature \
     SubstratumKey \
     Turbo \
+	Gallery2 \
     WeatherProvider \
     Snap \
 	SnapdragonCamera \
