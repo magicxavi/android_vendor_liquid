@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     Turbo \
     WeatherProvider \
     Snap \
+	SnapdragonCamera \
 	Recorder \
 	RetroMusicPlayer
 
