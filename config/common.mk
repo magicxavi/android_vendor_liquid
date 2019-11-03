@@ -68,10 +68,6 @@ endif
 PRODUCT_PACKAGES += \
     Liquid-Fonts
 
-# Wallpapers
-PRODUCT_PACKAGES += \
-    LiquidPapers
-
 # Themes
 PRODUCT_PACKAGES += \
     SettingsDarkTheme \
