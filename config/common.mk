@@ -301,7 +301,7 @@ PRODUCT_PACKAGES += \
 # Liquid packages
 PRODUCT_PACKAGES += \
     LiquidLounge \
-    LiquidOTA
+    XenonOTA
 
 # Optional packages
 PRODUCT_PACKAGES += \
